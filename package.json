@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "csslint": "npx stylelint \"**/*.css\"",
-    "prettify": "npx prettier --write .",
+    "prettify": "npx prettier --write -loglevel silent .",
     "lint": "tsc --noEmit && next lint --fix && yarn csslint",
     "prepare": "husky install"
   },
