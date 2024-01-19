@@ -3,3 +3,5 @@
 dist
 build
 coverage
+@/components/ui
+package-lock.json
