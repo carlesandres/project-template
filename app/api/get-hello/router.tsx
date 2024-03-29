@@ -1,7 +1,6 @@
-import { NextResponse } from "next/server";
+import { NextResponse } from 'next/server';
 
 export async function GET() {
-
   // randomly get true or false
   const shouldError = Math.random() > 0.5;
 
@@ -12,7 +11,5 @@ export async function GET() {
     );
   }
 
-
   return NextResponse.json({ message: 'Hello world!' });
 }
-

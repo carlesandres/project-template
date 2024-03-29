@@ -5,3 +5,5 @@ build
 coverage
 @/components/ui
 package-lock.json
+
+components/@
