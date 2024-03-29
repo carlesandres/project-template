@@ -8,7 +8,7 @@ You **don't** need to create the project subfolder before executing the command.
 
 This project template includes:
 
-- Next.js
+- Next.js (app router structure)
 - Typescript
 - Tailwind
 - Eslint
@@ -17,3 +17,4 @@ This project template includes:
 - shadcn/ui
 - zod
 - lucide
+- Vercel speed insights
