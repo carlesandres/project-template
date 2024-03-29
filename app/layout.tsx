@@ -5,7 +5,7 @@ import Footer from 'components/Footer';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 
 const description =
-  "The best project template to build your Next.js apps with Tailwind CSS, TypeScript, ESLint, Prettier, Jest, and Husky.";
+  'The best project template to build your Next.js apps with Tailwind CSS, TypeScript, ESLint, Prettier, Jest, and Husky.';
 
 export const metadata = {
   title: {
@@ -13,19 +13,12 @@ export const metadata = {
     default: 'Git Examples',
   },
   description,
-  keywords: [
-    'next.js',
-    'template',
-    'tailwindcss',
-    'shadcn/ui',
-    'zod',
-  ],
+  keywords: ['next.js', 'template', 'tailwindcss', 'shadcn/ui', 'zod'],
   authors: [{ name: 'Carles Andrés', url: 'https://carlesandres.com' }],
   robots: 'index, follow',
 };
 
 async function MyApp({ children }: { children: React.ReactNode }) {
-
   return (
     <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable}`}>
       <head>
@@ -46,4 +39,3 @@ async function MyApp({ children }: { children: React.ReactNode }) {
 }
 
 export default MyApp;
-
