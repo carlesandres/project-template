@@ -10,8 +10,8 @@ const description =
 
 export const metadata = {
   title: {
-    template: '%s | Git Examples',
-    default: 'Git Examples',
+    template: '%s | Product Name',
+    default: 'Product Name',
   },
   description,
   keywords: ['next.js', 'template', 'tailwindcss', 'shadcn/ui', 'zod'],
