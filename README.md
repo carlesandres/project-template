@@ -26,3 +26,7 @@ This project template includes:
 - lucide
 - Vercel speed insights
 - Prettier
+
+### Blog
+
+It contains a Markdown-based blog.
