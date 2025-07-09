@@ -2,7 +2,10 @@
   "singleQuote": true,
   "overrides": [
     {
-      "files": ["*.json", ".*rc"],
+      "files": [
+        "*.json",
+        ".*rc"
+      ],
       "options": {
         "parser": "json5",
         "quoteProps": "preserve",
