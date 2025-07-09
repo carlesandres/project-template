@@ -19,4 +19,3 @@ export default defineConfig([
     extends: compat.extends('next/core-web-vitals', 'prettier'),
   },
 ]);
-
