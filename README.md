@@ -13,7 +13,6 @@ The chosen technologies are industry standards well supported by AI tools, makin
 (\*) You **don't** need to create the project subfolder before executing the command.
 
 ## Features
-
 This project template includes:
 
 - Next.js (app router structure)
