@@ -47,7 +47,7 @@
     "embla-carousel-react": "^8.6.0",
     "eslint-config-prettier": "^10.1.5",
     "geist": "^1.4.2",
-    "grey-matter": "^0.0.0",
+    "gray-matter": "^4.0.3",
     "headlessui": "^0.0.0",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.525.0",
