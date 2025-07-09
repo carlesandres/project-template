@@ -1,14 +1,4 @@
 {
   "singleQuote": true,
-  "overrides": [
-    {
-      "files": ["*.json", ".*rc"],
-      "options": {
-        "parser": "json5",
-        "quoteProps": "preserve",
-        "singleQuote": false,
-        "trailingComma": "none"
-      }
-    }
-  ]
+  "plugins": ["prettier-plugin-tailwindcss"]
 }

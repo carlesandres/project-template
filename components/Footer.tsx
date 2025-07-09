@@ -3,8 +3,8 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-white pb-24 pt-6 text-xs sm:pb-6 sm:text-sm print:hidden">
-      <div className="flex flex-col items-center  justify-center gap-4 sm:flex-row sm:gap-16">
+    <footer className="w-full bg-white pt-6 pb-24 text-xs sm:pb-6 sm:text-sm print:hidden">
+      <div className="flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-16">
         <div className="">
           Find us on
           <Link

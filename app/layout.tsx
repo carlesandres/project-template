@@ -28,7 +28,7 @@ async function MyApp({ children }: { children: React.ReactNode }) {
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#4a4a4a" />
       </head>
-      <body className="bg-grid ">
+      <body className="bg-grid">
         <div className="min-h-screen">{children}</div>
         <Footer />
         <SpeedInsights />

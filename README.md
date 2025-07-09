@@ -10,7 +10,7 @@ The chosen technologies are industry standards well supported by AI tools, makin
 
 `npx create-next-app@latest -e https://github.com/carlesandres/project-template`
 
-(*) You **don't** need to create the project subfolder before executing the command.
+(\*) You **don't** need to create the project subfolder before executing the command.
 
 ## Features
 
@@ -26,3 +26,7 @@ This project template includes:
 - lucide
 - Vercel speed insights
 - Prettier
+
+### Blog
+
+It contains a Markdown-based blog.
