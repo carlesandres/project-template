@@ -1,6 +1,7 @@
 .bg-grid {
   background-color: #f5f5f5;
-  background-image: linear-gradient(#f0f0f0 1px, transparent 1px),
+  background-image:
+    linear-gradient(#f0f0f0 1px, transparent 1px),
     linear-gradient(90deg, #f0f0f0 1px, transparent 1px),
     linear-gradient(#f0f0f0 1px, transparent 1px),
     linear-gradient(90deg, #f0f0f0 1px, transparent 1px);
