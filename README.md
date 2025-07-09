@@ -25,3 +25,4 @@ This project template includes:
 - zod
 - lucide
 - Vercel speed insights
+- Prettier

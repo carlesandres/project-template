@@ -14,11 +14,10 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center py-2">
-      <div className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
-        <h1 className="text-5xl font-bold mb-8">Carles Andres Starter Kit</h1>
-        <ClientComponent />
-      </div>
+    <main className="container mx-auto flex min-h-screen flex-col text-center py-2 sm:py-24">
+      <h1 className="text-5xl font-bold mb-8">Carles Andres Starter Kit</h1>
+
+      <ClientComponent />
     </main>
   );
 }
