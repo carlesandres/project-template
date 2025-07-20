@@ -3,6 +3,7 @@ import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
 import Footer from 'components/Footer';
 import { SpeedInsights } from '@vercel/speed-insights/next';
+import { ThemeProvider } from '@/components/theme-provider';
 
 const description =
   'The best project template to build your Next.js apps with Tailwind CSS, TypeScript, ESLint, Prettier, Jest, and Husky.';
@@ -20,7 +21,11 @@ export const metadata = {
 
 async function MyApp({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${GeistSans.variable} ${GeistMono.variable}`}>
+    <html
+      lang="en"
+      className={`${GeistSans.variable} ${GeistMono.variable}`}
+      suppressHydrationWarning
+    >
       <head>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
@@ -28,11 +33,13 @@ async function MyApp({ children }: { children: React.ReactNode }) {
         <link rel="manifest" href="/site.webmanifest" />
         <meta name="theme-color" content="#4a4a4a" />
       </head>
-      <body className="bg-grid">
-        <div className="min-h-screen">{children}</div>
-        <Footer />
-        <SpeedInsights />
-        <div id="modal-root" />
+      <body className="bg-background">
+        <ThemeProvider>
+          <div className="min-h-screen">{children}</div>
+          <Footer />
+          <SpeedInsights />
+          <div id="modal-root" />
+        </ThemeProvider>
       </body>
     </html>
   );
