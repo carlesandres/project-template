@@ -2,19 +2,20 @@ import 'styles/globals.css';
 import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
 import Footer from 'components/Footer';
+import { Header } from 'components/header';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { ThemeProvider } from '@/components/theme-provider';
 
 const description =
-  'The best project template to build your Next.js apps with Tailwind CSS, TypeScript, ESLint, Prettier, Jest, and Husky.';
+  'A comprehensive Next.js template with TypeScript, Tailwind CSS, shadcn/ui, markdown blog, dark mode, and more. Perfect for rapid application development.';
 
 export const metadata = {
   title: {
-    template: '%s | Product Name',
-    default: 'Product Name',
+    template: '%s | Next.js Template',
+    default: 'Next.js Project Template - Modern Full-Stack Development',
   },
   description,
-  keywords: ['next.js', 'template', 'tailwindcss', 'shadcn/ui', 'zod'],
+  keywords: ['next.js', 'template', 'tailwindcss', 'shadcn/ui', 'typescript', 'react', 'markdown', 'blog', 'dark mode'],
   authors: [{ name: 'Carles Andrés', url: 'https://carlesandres.com' }],
   robots: 'index, follow',
 };
@@ -35,6 +36,7 @@ async function MyApp({ children }: { children: React.ReactNode }) {
       </head>
       <body className="bg-background">
         <ThemeProvider>
+          <Header />
           <div className="min-h-screen">{children}</div>
           <Footer />
           <SpeedInsights />
