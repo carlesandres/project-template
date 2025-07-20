@@ -15,7 +15,17 @@ export const metadata = {
     default: 'Next.js Project Template - Modern Full-Stack Development',
   },
   description,
-  keywords: ['next.js', 'template', 'tailwindcss', 'shadcn/ui', 'typescript', 'react', 'markdown', 'blog', 'dark mode'],
+  keywords: [
+    'next.js',
+    'template',
+    'tailwindcss',
+    'shadcn/ui',
+    'typescript',
+    'react',
+    'markdown',
+    'blog',
+    'dark mode',
+  ],
   authors: [{ name: 'Carles Andrés', url: 'https://carlesandres.com' }],
   robots: 'index, follow',
 };

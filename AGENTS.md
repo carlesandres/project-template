@@ -9,11 +9,13 @@ A batteries-included Next.js template with TypeScript, featuring a markdown-base
 ## Key Features
 
 ### Core Framework & Language
+
 - **Next.js 15.3.5** with App Router structure
 - **TypeScript** with strict configuration
 - **React 19** with latest features
 
 ### Styling & UI
+
 - **Tailwind CSS v4** for utility-first styling
 - **shadcn/ui** component library (New York style) with 30+ pre-built components
 - **Lucide React** icons
@@ -21,6 +23,7 @@ A batteries-included Next.js template with TypeScript, featuring a markdown-base
 - **Geist font** for modern typography
 
 ### Blog System
+
 - **Markdown-based blog** with gray-matter frontmatter parsing
 - **Dynamic routing** for blog posts (`/blog/[slug]`)
 - **Publication control** (published/draft states)
@@ -28,22 +31,27 @@ A batteries-included Next.js template with TypeScript, featuring a markdown-base
 - **Content directory**: `/content/` for markdown files
 
 ### Development Tools
+
 - **ESLint** with Next.js and Prettier configurations
 - **Prettier** with Tailwind CSS plugin for code formatting
 - **Husky** git hooks for pre-commit linting
 - **TypeScript strict mode** with path aliases (`@/*`)
 
 ### Form Handling & Validation
+
 - **React Hook Form** for form management
 - **Zod** for schema validation
 - **@hookform/resolvers** for Zod integration
 
 ### Performance & Analytics
+
 - **Vercel Speed Insights** for performance monitoring
 - **Optimized builds** with Next.js
 
 ### UI Component Library
+
 Complete set of accessible components from Radix UI:
+
 - Navigation (menus, breadcrumbs, tabs)
 - Forms (inputs, selects, checkboxes, radio groups)
 - Feedback (alerts, toasts, progress bars)
