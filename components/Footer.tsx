@@ -1,18 +1,24 @@
 import React from 'react';
 import Link from 'next/link';
+import { GitBranch } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-white pt-6 pb-24 text-xs sm:pb-6 sm:text-sm print:hidden">
-      <div className="flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-16">
-        <div className="">
-          Find us on
-          <Link
-            className="ml-1 cursor-pointer items-center text-zinc-500 hover:text-zinc-600"
-            href="https://github.com/carlesandres/project-template"
-          >
-            GitHub
-          </Link>
+    <footer className="w-full border-t border-gray-200/50 dark:border-gray-800/50 bg-white/80 dark:bg-gray-950/80 backdrop-blur-md pt-6 pb-24 text-sm sm:pb-6 print:hidden">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-col items-center justify-center gap-4 sm:flex-row sm:gap-16">
+          <div className="flex items-center text-gray-600 dark:text-gray-400">
+            Find us on
+            <Link
+              className="ml-1 flex items-center text-gray-700 dark:text-gray-300 hover:text-gray-900 dark:hover:text-gray-100 transition-colors"
+              href="https://github.com/carlesandres/project-template"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <GitBranch className="h-4 w-4 mr-1" />
+              GitHub
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
