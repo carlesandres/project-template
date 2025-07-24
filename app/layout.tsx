@@ -1,7 +1,7 @@
 import 'styles/globals.css';
 import { GeistSans } from 'geist/font/sans';
 import { GeistMono } from 'geist/font/mono';
-import Footer from 'components/Footer';
+import Footer from 'components/footer';
 import { Header } from 'components/header';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { ThemeProvider } from '@/components/theme-provider';
