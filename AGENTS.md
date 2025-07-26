@@ -107,7 +107,7 @@ npx create-next-app@latest -e https://github.com/carlesandres/project-template
 
 ## Development Notes
 
-- Uses pnpm as package manager with workspace configuration
+- Uses bun as package manager with workspace configuration
 - Strict TypeScript configuration for better code quality
 - Pre-commit hooks ensure code quality before commits
 - Path aliases configured for clean imports (`@/components`, `@/lib`, etc.)

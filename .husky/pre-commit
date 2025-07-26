@@ -1,1 +1,2 @@
-npm run lint
+bun run lint
+bun run prettify
