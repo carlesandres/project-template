@@ -34,7 +34,8 @@ A batteries-included Next.js template with TypeScript, featuring a markdown-base
 
 - **ESLint** with Next.js and Prettier configurations
 - **Prettier** with Tailwind CSS plugin for code formatting
-- **Husky** git hooks for pre-commit linting
+- **Husky** git hooks for pre-commit linting and commit message validation
+- **Commitlint** with conventional commits enforcement
 - **TypeScript strict mode** with path aliases (`@/*`)
 
 ### Form Handling & Validation
@@ -97,7 +98,9 @@ public/               # Static assets
 - `eslint.config.mjs` - ESLint configuration
 - `.prettierrc` - Prettier formatting rules
 - `postcss.config.js` - PostCSS configuration
+- `commitlint.config.js` - Conventional commits configuration
 - `.husky/pre-commit` - Git pre-commit hooks
+- `.husky/commit-msg` - Git commit message validation
 
 ## Installation
 
@@ -110,6 +113,9 @@ npx create-next-app@latest -e https://github.com/carlesandres/project-template
 - Uses bun as package manager with workspace configuration
 - Strict TypeScript configuration for better code quality
 - Pre-commit hooks ensure code quality before commits
+- Conventional commits enforced via commitlint and husky hooks
+- Commit messages must follow format: `type(scope): description`
+- Supported commit types: feat, fix, docs, style, refactor, perf, test, build, ci, chore, revert
 - Path aliases configured for clean imports (`@/components`, `@/lib`, etc.)
 - Dark mode implemented with system preference detection
 - Blog posts support frontmatter metadata (title, date, published status)
