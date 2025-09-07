@@ -27,7 +27,7 @@ import {
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Next.js Project Template - Modern Full-Stack Development',
+  title: "Carles Andres's Project Template",
   description:
     'A comprehensive Next.js template with TypeScript, Tailwind CSS, shadcn/ui, markdown blog, dark mode, and more. Perfect for rapid application development.',
   alternates: {
@@ -147,28 +147,19 @@ export default function Home() {
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-16 text-center sm:py-24">
         <div className="relative">
-          <Badge
-            variant="secondary"
-            className="mb-6 border-blue-200/50 bg-gradient-to-r from-blue-50 to-purple-50 dark:border-blue-800/50 dark:from-blue-950/50 dark:to-purple-950/50"
-          >
-            <Sparkles className="mr-1 h-3 w-3" />
-            Modern Full-Stack Template
-          </Badge>
-
           <h1 className="mb-6 text-4xl font-bold tracking-tight sm:text-6xl lg:text-7xl">
             <span className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 bg-clip-text text-transparent dark:from-gray-100 dark:via-gray-200 dark:to-gray-100">
-              Next.js Project
+              {`Carles Andres's`}
             </span>
             <br />
             <span className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 bg-clip-text text-transparent dark:from-blue-400 dark:via-purple-400 dark:to-pink-400">
-              Template
+              Project Template
             </span>
           </h1>
 
           <p className="text-muted-foreground mx-auto mb-8 max-w-2xl text-lg sm:text-xl">
             A comprehensive, batteries-included template for rapid full-stack
-            development. Built with industry-standard technologies and
-            AI-friendly architecture.
+            development.
           </p>
 
           <div className="flex flex-col gap-4 sm:flex-row sm:justify-center">
