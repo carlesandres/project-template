@@ -14,7 +14,7 @@ export const Header = () => {
             <Code2 className="h-5 w-5 text-white" />
           </div>
           <span className="bg-gradient-to-r from-gray-900 to-gray-700 bg-clip-text text-lg font-bold text-transparent dark:from-gray-100 dark:to-gray-300">
-            Next.js Template
+            Carles Andres&apos;s Project Template
           </span>
         </Link>
 
