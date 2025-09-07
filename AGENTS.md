@@ -38,6 +38,13 @@ A batteries-included Next.js template with TypeScript, featuring a markdown-base
 - **Commitlint** with conventional commits enforcement
 - **TypeScript strict mode** with path aliases (`@/*`)
 
+### Testing
+
+- **Jest** testing framework configured for Next.js
+- **React Testing Library** for component integration testing
+- **@testing-library/jest-dom** for enhanced DOM matchers
+- **@testing-library/user-event** for user interaction simulation
+
 ### Form Handling & Validation
 
 - **React Hook Form** for form management
@@ -67,6 +74,9 @@ Complete set of accessible components from Radix UI:
 - `npm run start` - Start production server
 - `npm run lint` - Run TypeScript check and ESLint with auto-fix
 - `npm run prettify` - Format code with Prettier
+- `npm run test` - Run Jest tests
+- `npm run test:watch` - Run Jest tests in watch mode
+- `npm run test:coverage` - Run Jest tests with coverage report
 
 ## Project Structure
 
@@ -89,6 +99,7 @@ lib/                  # Utility libraries and constants
 utils/                # Utility functions (blog parsing, metadata)
 styles/               # Global CSS styles
 public/               # Static assets
+__tests__/            # Jest integration tests
 ```
 
 ## Configuration Files
@@ -101,6 +112,8 @@ public/               # Static assets
 - `commitlint.config.js` - Conventional commits configuration
 - `.husky/pre-commit` - Git pre-commit hooks
 - `.husky/commit-msg` - Git commit message validation
+- `jest.config.js` - Jest testing configuration
+- `jest.setup.js` - Jest setup file for testing-library matchers
 
 ## Installation
 
@@ -120,3 +133,4 @@ npx create-next-app@latest -e https://github.com/carlesandres/project-template
 - Dark mode implemented with system preference detection
 - Blog posts support frontmatter metadata (title, date, published status)
 - Responsive design with mobile-first approach
+- Integration testing setup following Kent C. Dodds' testing philosophy
