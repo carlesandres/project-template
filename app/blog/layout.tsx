@@ -1,17 +1,12 @@
-import { Header } from 'components/header';
-
 interface BlogTemplateProps {
   children: React.ReactNode;
 }
 
 const BlogTemplate = (props: BlogTemplateProps) => {
   return (
-    <>
-      <Header />
-      <main className="prose dark:prose-invert prose-code:before:content-none prose-code:after:content-none mx-auto">
-        {props.children}
-      </main>
-    </>
+    <main className="prose dark:prose-invert prose-code:before:content-none prose-code:after:content-none mx-auto">
+      {props.children}
+    </main>
   );
 };
 
